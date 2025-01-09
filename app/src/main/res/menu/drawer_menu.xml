@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_chat"
+        android:title="聊天"
+        android:icon="@drawable/ic_chat" />
+    <item
+        android:id="@+id/nav_location"
+        android:title="共享位置"
+        android:icon="@drawable/ic_location" />
+    <item
+        android:id="@+id/nav_timer"
+        android:title="番茄时钟"
+        android:icon="@drawable/ic_timer" />
+    <item
+        android:id="@+id/nav_logout"
+        android:title="登出"
+        android:icon="@drawable/ic_logout" />
+</menu>

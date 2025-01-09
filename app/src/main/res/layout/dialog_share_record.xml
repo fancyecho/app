@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 选择记录的RadioGroup -->
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioSelf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自己的记录" />
+
+        <RadioButton
+            android:id="@+id/radioFriend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="好友的记录" />
+    </RadioGroup>
+
+    <!-- 显示记录的TextView -->
+    <TextView
+        android:id="@+id/recordTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择记录类型以查看详情"
+        android:paddingTop="16dp"
+        android:textSize="16sp" />
+
+    <!-- 确认按钮 -->
+    <Button
+        android:id="@+id/shareRecordButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="共享记录"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

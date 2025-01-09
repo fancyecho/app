@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1089713437242",
+    "project_id": "moonecho-98e9e",
+    "storage_bucket": "moonecho-98e9e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089713437242:android:df3accfc420cba9e3d1303",
+        "android_client_info": {
+          "package_name": "com.example.moonecho"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnGcKPr3SRLvPNCerxJa4mi8c3hFY-HgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
